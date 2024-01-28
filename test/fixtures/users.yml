@@ -1,0 +1,10 @@
+WithBilling:
+  id: 1
+  name: John Doe
+  email: john.doe@email.com
+  billing_id: "cus_123"
+
+WithoutBilling:
+  id: 2
+  name: Jannet Spancer
+  email: jannet.spancer@email.com

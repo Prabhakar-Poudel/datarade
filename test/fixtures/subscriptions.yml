@@ -1,0 +1,11 @@
+paid:
+  id: 1
+  external_id: "sub_123"
+  status: paid
+  user_id: 1
+
+unpaid:
+  id: 2
+  external_id: "sub_345"
+  status: unpaid
+  user_id: 1

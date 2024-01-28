@@ -1,6 +1,4 @@
 Rails.application.routes.draw do
-  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
-
-  # Defines the root path route ("/")
-  # root "articles#index"
+  # Stripe webhook endpoint
+  post "/stripe/webhooks", to: "stripe/webhooks#process_event"
 end
