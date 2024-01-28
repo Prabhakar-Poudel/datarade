@@ -52,3 +52,7 @@ Note: Setting up strip test account, test cards etc is out of scope
   - subscription deleted (customer.subscription.deleted)
     - Should cancel subscription for a paid subscription
     - No change for unpaid subscription
+
+## Running Automated tests
+
+`bin/rails test [test_file_path.rb]`
